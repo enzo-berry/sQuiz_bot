@@ -14,7 +14,7 @@ press_enter_auto = False
 import openai
 openai.api_key = api_key
 
-#openai to use gpt-3
+# OpenAI gpt3.5 api.
 def get_response(question):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -33,7 +33,7 @@ def send_rep(rep, driver: uc.Chrome):
     if press_enter_auto:
         ActionChains(driver).send_keys(Keys.ENTER).perform()
 
-#getting the quedtion
+# Fetching the question.
 question = None
 while True:
     try:
