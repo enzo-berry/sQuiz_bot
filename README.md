@@ -1,5 +1,8 @@
 # Project README
 
+## Update
+This has been patched and requires an update.
+
 ## Overview
 This project is a bot designed to play [Squiz.gg](https://squiz.gg) using the OpenAI API.
 
@@ -13,5 +16,3 @@ pip install selenium
 ```
 
 ![Alt text](screenshot.png)
-
-
